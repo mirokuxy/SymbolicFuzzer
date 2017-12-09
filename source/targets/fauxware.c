@@ -26,12 +26,13 @@ int authenticate(char *username, char *password)
 int accepted()
 {
   printf("Welcome to the admin console, trusted user!\n");
+  exit(1);
 }
 
 int rejected()
 {
   printf("Go away!");
-  exit(1);
+  exit(0);
 }
 
 int main(int argc, char **argv)

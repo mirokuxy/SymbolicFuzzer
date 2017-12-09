@@ -2,7 +2,7 @@
 #include <assert.h>
 
 int main(int argc, char* argv[]) {
-  char x = argv[0][0];
+  char x = argv[1][0];
 
   int y;
   if (x < 'e') {
@@ -19,8 +19,10 @@ int main(int argc, char* argv[]) {
     y *= 4;
   }
 
-  printf("%d\n", y);
+  //printf("%d\n", y);
 
-  return y;
+  //printf("%d\n", y);
+
+  return 0;
 }
 
